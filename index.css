@@ -1,0 +1,41 @@
+body {
+  color: black;
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures content is centered vertically on the page */
+  margin: 0; /* Remove default body margins to avoid unwanted spaces */
+}
+
+.container {
+  color: black;
+  background-color: white;
+  width: 290px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.2); /* Correct the box-shadow syntax */
+}
+
+img {
+  width: 260px;
+  height: auto; /* Use 'auto' to maintain image aspect ratio */
+  border-radius: 12px;
+  margin: 12px;
+}
+
+span {
+  color: hsl(220, 15%, 55%);
+}
+
+.content {
+  margin: 20px 20px 30px; /* Added more spacing below the content */
+  padding-inline: 20px;
+  font-weight: bold; /* Make "Scan" text bold */
+}
+
+h1 {
+  line-height: 1; /* Adjust the line-height to make the text occupy 2 lines */
+}
